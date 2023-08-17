@@ -1,0 +1,35 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  background-color: #161515;
+}
+
+.sidebar {
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  width: 240px;
+}
+
+.sidebar a:hover {
+  background-color: #2d2d2d;
+}
+
+.sidebar a.active {
+  background-color: #555;
+}

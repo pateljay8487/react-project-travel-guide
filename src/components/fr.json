@@ -1,0 +1,10 @@
+{
+    "language": {
+      "title": "Langue",
+      "selectLabel": "Sélectionnez une langue",
+      "english": "Anglais",
+      "french": "Français",
+      "spanish": "Espagnol",
+      "h1": "Application de réservation de voyage"
+    }
+  }

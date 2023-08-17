@@ -1,0 +1,164 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  /* max-width: 800px; */
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  width: 200px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card.selected {
+  border: 2px solid #007bff;
+}
+
+.card h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.card p {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+button {
+  display: block;
+  background-color: #0056b3;
+
+  
+}
+
+
+.booking-cart {
+  background-color: gray;
+  margin-top: 30px;
+  border-top: 2px solid #ccc;
+  padding-top: 20px;
+}
+
+.booking-cart p {
+  margin-bottom: 10px;
+}
+
+.booking-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.booking-item p {
+  margin: 0;
+}
+
+.total-price {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.booking-cart button {
+  background-color: #0056b3;
+}
+
+.total-price {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Additional colorful elements */
+
+h1::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 5px;
+  background-color: #007bff;
+  margin: 10px auto;
+}
+
+.card-container {
+  margin-top: 20px;
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 123, 255, 0.2);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card:hover::before {
+  opacity: 1;
+}
+
+.card h4 {
+  color: #007bff;
+}
+/* 
+.button {
+  background-color: #2bff00;
+  box-shadow: 0 4px 6px rgba(0, 123, 255, 0.2);
+} */
+
+button:hover {
+  background-color: #007bff;
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 123, 255, 0.4);
+}

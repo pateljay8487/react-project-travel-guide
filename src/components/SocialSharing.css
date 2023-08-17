@@ -1,0 +1,23 @@
+.social-sharing-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .social-sharing-page h1 {
+    margin-bottom: 20px;
+  }
+  
+  .share-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .btn {
+    margin-right: 10px;
+  }
+  
+  .icon {
+    margin-right: 5px;
+  }
+  

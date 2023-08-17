@@ -1,0 +1,89 @@
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgba(247, 132, 132, 0.8);
+  /* background-image: url('../assets/Weather2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat:no-repeat; */
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loading {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.error {
+  color: #ff0000;
+}
+
+.weather-info {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.weather-info h2 {
+  font-size: 24px;
+  color: white;
+}
+
+.weather-info p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+body {
+  background-image: url('../assets/Weather2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* margin: 0;
+  padding: 0; */
+  font-family: "Times New Roman", Times, serif;
+}
+
+.Text-align-at-center{
+  text-align: center;
+    background-image: url('../assets/Weather2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+  /* margin: 0;
+  padding: 0; */
+  
+}
+
+.entercityname{
+  font-weight:bolder;
+  font-size: 24px;
+  color: #0056b3;
+  
+  font-family: "Times New Roman", Times, serif;
+}
+
+.Red-Color{
+  text-decoration: solid;
+  color: #ff0000;
+}
+
+.Display{
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+}
+

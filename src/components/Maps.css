@@ -1,0 +1,26 @@
+.container {
+    height: 400px;
+    width: 100%;
+  }
+  
+  .container button {
+    margin-bottom: 10px;
+  }
+  
+  .input[type="text"] {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px;
+  }
+  
+  .leaflet-container {
+    height: 100%;
+    width: 100%;
+  }
+
+
+  button{
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  }
+  

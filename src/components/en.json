@@ -1,0 +1,10 @@
+{
+    "language": {
+      "title": "Language",
+      "selectLabel": "Select Language",
+      "english": "English",
+      "french": "French",
+      "spanish": "Spanish",
+      "h1": "Travel Booking App"
+    }
+  }

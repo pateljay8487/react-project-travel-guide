@@ -1,0 +1,91 @@
+.container {
+    padding: 2rem;
+  }
+  
+  
+  .submission {
+    margin-bottom: 2rem;
+  }
+  
+  .submission h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .submission p {
+    margin-bottom: 0.25rem;
+  }
+  
+  .submission .date {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .submission .description {
+    margin-top: 1rem;
+    white-space: pre-line;
+  }
+  
+  .submission hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 1.5rem 0;
+  }
+  
+  .form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+  }
+  
+  .form h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .form input,
+  .form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form textarea {
+    min-height: 100px;
+  }
+  
+  .form button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .form button:active {
+    background-color: #003974;
+  }
+  
